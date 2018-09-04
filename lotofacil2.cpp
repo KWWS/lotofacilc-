@@ -55,7 +55,6 @@ void datahora(){
     fprintf(file, "Data: %d/%d/%d\n",dia,mes,ano);
     fclose(file);
 }
-
 void cadastrar(){
     FILE *file;
     file=fopen("lotofacil.txt", "a");
